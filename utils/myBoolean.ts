@@ -9,4 +9,5 @@ const error1 = myBoolean.toUpperCase();
 // Error: Operator '+' cannot be applied to types 'boolean' and 'number'
 const error2 = myBoolean + 10;
 
+// Ok!
 const newBoolean = myBoolean && true;

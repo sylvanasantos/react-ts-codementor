@@ -10,4 +10,6 @@ const welcome = (hasAccess) => {
 // Error: Expected 1 arguments, but got 0.
 // An argument for 'hasAccess' was not provided.
 welcome();
-// welcome(false);
+
+// Ok!
+welcome(false);
