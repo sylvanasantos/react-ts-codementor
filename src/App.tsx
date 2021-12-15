@@ -4,12 +4,16 @@ import { SyllabusHeader } from "./components/SyllabusHeader";
 
 import "./App.css";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <SyllabusHeader />
+      <SyllabusHeader
+        isPro={true}
+        courseType="Skill Path"
+        courseName="Analyze Data with Python"
+        onClick={() => console.log("hello")}
+        projects={14}
+      />
     </div>
   );
-}
-
-export default App;
+};
