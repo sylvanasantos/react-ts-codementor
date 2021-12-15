@@ -1,10 +1,13 @@
 import React from "react";
+
+import { SyllabusHeader } from "./components/SyllabusHeader";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <p>Let's add our syllabus header here</p>
+      <SyllabusHeader />
     </div>
   );
 }
