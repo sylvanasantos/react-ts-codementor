@@ -31,7 +31,7 @@ npm i -g typescript
 ```
 
 We recommend you then run TypeScript in "watch" mode on individual code examples by providing it the `-w` flag and a path to the example.
-For example, to start TypeScript running on the first code util:
+For example, to start TypeScript running on the first code example:
 
 ```shell
 tsc -w utils/welcome
